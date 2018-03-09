@@ -1,0 +1,4 @@
+https://github.com/cduck/hyperbolic/blob/master/examples/poincare.ipynb
+
+https://arxiv.org/pdf/1705.08039.pdf >> maybe
+https://arxiv.org/pdf/1105.5332.pdf  >> more promising
