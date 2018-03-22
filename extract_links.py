@@ -3,10 +3,8 @@ import ray
 from pathlib import Path
 from lxml import html
 import re
-import matplotlib.pyplot as plt
 from urllib.parse import unquote
 import fcntl
-import threading
 import random
 import shutil
 import sys
