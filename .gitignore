@@ -1,0 +1,11 @@
+html_extract
+html_extract/AA
+html_extract/AB
+log/extractLinks_err.log
+log/extractLinks.log
+log/wiki_err.log
+log/wiki.log
+link_files/*.bz2
+input_wikidump/enwiki-20180120-pages-meta-current23.xml-p29823661p30503449.bz2
+link_files/enwiki-20180120-pages-meta-current23.xml-p29823661p30503449.bz2_links.dat
+wikidump_reserve_test/enwiki-20180120-pages-meta-current23.xml-p29823661p30503449.bz2
