@@ -17,7 +17,7 @@ The `extractHTML.sh` script itself is written in BASH, so you should have access
 
 ## Running the Linkfile Constructor
 
-If you want to construct files representing the adjacency list representation of the network from [Wikipedia datadumps obtained from the Internet Archive](https://archive.org/search.php?query=subject%3A"enwiki" AND subject%3A"data dumps"%20AND%20collection%3A"wikimediadownloads"&and[]=subject%3A"Wikipedia"),, place your datadump files (`.bz2` compressed format) into the `./input_wikidump/`.
+If you want to construct files representing the adjacency list representation of the network from [Wikipedia datadumps obtained from the Internet Archive](https://archive.org/search.php?query=subject%3A"enwiki"%20AND%20subject%3A"data dumps"%20AND%20collection%3A"wikimediadownloads"&and[]=subject%3A"Wikipedia"),, place your datadump files (`.bz2` compressed format) into the `./input_wikidump/`.
 
 Then, run `sh extractHTML.sh` to obtain the adjacency list files associated with each `.bz2` file. They will be output to `./link_files/`.
 
