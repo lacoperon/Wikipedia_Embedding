@@ -2,3 +2,12 @@ https://github.com/cduck/hyperbolic/blob/master/examples/poincare.ipynb
 
 https://arxiv.org/pdf/1705.08039.pdf >> maybe
 https://arxiv.org/pdf/1105.5332.pdf  >> more promising
+
+https://radimrehurek.com/gensim/models/poincare.html#id3 >> less promising
+
+Take airline network, or take dk-lab hyperbolic graph generator
+
+https://github.com/named-data/Hyperbolic-Graph-Generator
+
+
+https://github.com/attardi/wikiextractor/
