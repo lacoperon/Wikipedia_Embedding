@@ -60,10 +60,12 @@ def parseWikidumpFile(file_path):
 
         # Gets all links within the article
         links = tree.xpath("//a/@href")
-        # Filters out links not internal to Wikipedia
-        links = list(filter(lambda x: not re.match("https?:\/\/", x), links))
+
         # Decodes special characters (ie from Poincar%C3%A9 to correct format)
         links = [unquote(link) for link in links]
+
+        # Filters out links not internal to Wikipedia
+        links = list(filter(lambda x: not re.match("https?:\/\/", x), links))
 
         article_results.append([title, links])
 
