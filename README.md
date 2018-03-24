@@ -21,6 +21,10 @@ If you want to construct files representing the adjacency list representation of
 
 Then, run `sh extractHTML.sh` to obtain the adjacency list files associated with each `.bz2` file. They will be output to `./link_files/`.
 
+## Analysis of the Wikipedia Network
+
+Look for some basic data analysis of the resulting network from running my code on the whole Wikipedia backup within `data_analysis.ipynb`.
+
 ## Future Directions
 
 At some point in time (ideally before this project is due), I will do something with the network generated from the whole of Wikipedia. At some point...
