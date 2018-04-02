@@ -23,8 +23,10 @@ Then, run `sh extractHTML.sh` to obtain the adjacency list files associated with
 
 ## Analysis of the Wikipedia Network
 
-Look for some basic data analysis of the resulting network from running my code on the whole Wikipedia backup within `data_analysis.ipynb`.
+Find my extensive (and still incomplete) analysis of the Wikipedia network within [this Jupyter Notebook](./data_analysis.ipynb). The analysis includes visualizations of the most linked-to articles, subsets of the articles with the most outgoing links, as well as an interesting visualization of Wikipedian interest in each year from 1700 to 2018.
 
 ## Future Directions
 
-At some point in time (ideally before this project is due), I will do something with the network generated from the whole of Wikipedia. At some point...
+I want to embed this network to allow for a highly efficient methodology for playing the [Wikipedia Game](https://en.wikipedia.org/wiki/Wikipedia:Wiki_Game). 
+
+Additionally, I am currently in the process of developing a D3.js visualization of these results, allowing easy interpretation of any arbitrary article within the network, interacting with the articles it links to (and is linked from).
